@@ -17,9 +17,7 @@ body {
 }
 
 
-/*  --->  Section One Styling */
-
-/*  -> Commons */
+/*  ---> Commons */
 
 
 .header,
@@ -63,7 +61,10 @@ body {
 
 .logo-img {
     width: 125px;
+    flex-shrink: 0;
 }
+
+/*  --->  Section One Styling */
 
 /* -> Left-Content */
 .first-heading {
@@ -90,6 +91,7 @@ body {
 .section-one-img {
     width: 500px;
     border-radius: 4px;
+    flex-shrink: 100;
 }
 
 
