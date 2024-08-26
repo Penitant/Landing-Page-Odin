@@ -1,0 +1,111 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow-y: scroll;
+}
+
+.emojis {
+    color: transparent;
+    text-shadow: 0 0 0 #0fffcb;
+}
+
+
+/*  --->  Section One Styling */
+
+/*  -> Commons */
+
+
+.header,
+.header-links,
+.section-one-content {
+    display: flex;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #ffffff;
+    margin: 0px;
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px 18px 4px 18px;
+    margin-top: 20px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-one {
+    background-color: #1f2937;
+}
+
+.section-one-content {
+    padding: 40px 125px 40px 125px;
+}
+/* -> Header */
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 125px 50px 125px;
+    height: 80px;
+}
+
+.header-links {
+    gap: 10px;
+}
+
+.logo-img {
+    width: 125px;
+}
+
+/* -> Left-Content */
+.first-heading {
+    font-size: 48px;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    color: #f9faf8;
+}
+
+.introduction {
+    color: #e5e7eb;
+    font-size: 18px;
+
+    padding-top: 40px;
+}
+
+.left-content {
+    padding-right: 80px;
+}
+/* -> Right Content */
+.section-one-img {
+    width: 500px;
+    border-radius: 4px;
+}
+
+
+/* -> Link Modifications */
+
+ul{
+    list-style: none;
+}
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover {
+    color:#e5e7eb; 
+    text-decoration:none; 
+    cursor:pointer;  
+    font-size: 20px;
+}  
