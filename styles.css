@@ -22,7 +22,10 @@ body {
 
 .header,
 .header-links,
-.section-one-content {
+.section-one-content,
+.section-two,
+.section-two-content,
+.parts {
     display: flex;
 }
 
@@ -47,6 +50,9 @@ body {
 .section-one-content {
     padding: 40px 125px 40px 125px;
 }
+
+/*  --->  Section One Styling */
+
 /* -> Header */
 .header {
     justify-content: space-between;
@@ -64,7 +70,6 @@ body {
     flex-shrink: 0;
 }
 
-/*  --->  Section One Styling */
 
 /* -> Left-Content */
 .first-heading {
@@ -111,3 +116,48 @@ a:hover {
     cursor:pointer;  
     font-size: 20px;
 }  
+
+/* ---> Section-Two */
+
+.section-two {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-two-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 36px;
+    color: #1f2937;
+
+    margin: 40px;
+}
+
+.section-two-content {
+    align-items: center;
+    width: 900px;
+    height: 300px;
+}
+.rounded-img {
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+.para {
+    padding: 50px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #35373b;
+    text-align: center;
+}
+.para:hover {
+    font-weight: 200;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.parts {
+    flex-wrap: wrap;
+    justify-content: center;
+}
