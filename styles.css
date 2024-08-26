@@ -25,7 +25,8 @@ body {
 .section-one-content,
 .section-two,
 .section-two-content,
-.parts {
+.parts,
+.section-three {
     display: flex;
 }
 
@@ -137,7 +138,7 @@ a:hover {
 
 .section-two-content {
     width: 900px;
-    height: 300px;
+    height: 320px;
 }
 .rounded-img {
     width: 150px;
@@ -161,4 +162,26 @@ a:hover {
 .parts {
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* Section-three */
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 75px;
+
+    flex-wrap: wrap;
+}
+
+.quote {
+
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-sayer {
+    margin-left: auto;
+    font-weight: 700;
 }
