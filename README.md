@@ -4,6 +4,6 @@
 # I'll try to make a simple project with mminimal layout and it might look a bit primitive.
 # 
 # START DATE :		 August 26th, 2024.
-# COMPLETED ON : 
+# COMPLETED ON :     August 27th, 2024.
 #
 #
