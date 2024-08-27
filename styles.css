@@ -28,7 +28,8 @@ body {
 .parts,
 .section-three,
 .section-four,
-.section-four-wrapper {
+.section-four-wrapper,
+.section-five {
     display: flex;
 }
 
@@ -202,7 +203,7 @@ a:hover {
     padding: 40px;
     padding-left: 80px;
     padding-right: 80px;
-
+    height: auto;
     background-color: #3882f6;
     border-radius: 12px;
 
@@ -223,4 +224,36 @@ a:hover {
     color: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 8px;
+    transition: 0.3s;
 }
+
+.sign-up#call-for-action:hover {
+    border-radius: 30px;
+}
+
+/* section-five */
+
+.section-five {
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+}
+
+.copy {
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* button animations */
+
+button {
+    transition: 0.4s;
+}
+
+button:hover {
+    border-radius: 30px;
+}
+
+.
