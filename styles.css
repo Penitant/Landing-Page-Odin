@@ -26,7 +26,9 @@ body {
 .section-two,
 .section-two-content,
 .parts,
-.section-three {
+.section-three,
+.section-four,
+.section-four-wrapper {
     display: flex;
 }
 
@@ -184,4 +186,41 @@ a:hover {
 .quote-sayer {
     margin-left: auto;
     font-weight: 700;
+}
+
+/* ---> Section Four */
+
+.section-four {
+    justify-content: center;
+    align-items: center;
+
+
+    height: 400px;
+}
+
+.section-four-wrapper {
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    background-color: #3882f6;
+    border-radius: 12px;
+
+}
+
+.section-four-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-four-statement {
+    color: #e5e7eb;
+    font-size: 14px;
+
+}
+
+.sign-up#call-for-action {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
 }
