@@ -127,6 +127,9 @@ a:hover {
 .section-two {
     flex-wrap: wrap;
     justify-content: center;
+    padding: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .section-two-heading {
